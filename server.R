@@ -34,7 +34,7 @@ shinyServer(function(input, output) {
       return(Result)
     }  
   })
-  
+  #123
   output$plot <- renderPlot({
     dat = DATA()
     if (is.null(dat)|is.null(input$Y)|is.null(input$X)) {return()} else {
